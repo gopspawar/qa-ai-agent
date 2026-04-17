@@ -1,0 +1,383 @@
+[
+  {
+    "date": "2026-04-16 22:52:17.004042",
+    "environment_url": "https://www.mbusa.com/en/home",
+    "overall_status": "SETUP_REQUIRED",
+    "setup_message": "Install Playwright with: pip install playwright && python -m playwright install",
+    "results": []
+  },
+  {
+    "date": "2026-04-16 22:54:26.835888",
+    "environment_url": "https://www.mbusa.com/en/home",
+    "overall_status": "SETUP_REQUIRED",
+    "setup_message": "Install Playwright with: pip install playwright && python -m playwright install",
+    "results": []
+  },
+  {
+    "date": "2026-04-17 11:30:22.746051",
+    "environment_url": "https://www.google.com",
+    "overall_status": "FAIL",
+    "setup_message": "",
+    "results": [
+      {
+        "browser": "chromium",
+        "result": "PASS",
+        "status": 200,
+        "final_url": "https://www.google.com/",
+        "title": "Google",
+        "load_time_ms": 11365.74,
+        "has_visible_body_text": true,
+        "console_errors": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "error_page_signals": {
+          "is_error_page": false,
+          "url_signals": [],
+          "text_signals": []
+        },
+        "error": ""
+      },
+      {
+        "browser": "firefox",
+        "result": "FAIL",
+        "status": 200,
+        "final_url": "https://www.google.com/",
+        "title": "Google",
+        "load_time_ms": 6344.27,
+        "has_visible_body_text": true,
+        "console_errors": [
+          "[JavaScript Error: \"Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-IrklDU3Gy6S85vDbmBXYoA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. Consider using a hash ('sha256-IWu8eKPFpwBlPtvm+lmwBh1mAdRu4b2jd4cGC9eFA54=') together with 'unsafe-hashes'.\nSource: _rtf(this)\" {file: \"https://www.google.com/\" line: 0}]"
+        ],
+        "page_errors": [],
+        "failed_requests": [
+          {
+            "url": "https://csp.withgoogle.com/csp/gws/other-hp",
+            "failure": "NS_BINDING_ABORTED"
+          }
+        ],
+        "error_page_signals": {
+          "is_error_page": false,
+          "url_signals": [],
+          "text_signals": []
+        },
+        "error": ""
+      },
+      {
+        "browser": "webkit",
+        "result": "FAIL",
+        "status": 200,
+        "final_url": "https://www.google.com/",
+        "title": "Google",
+        "load_time_ms": 4451.24,
+        "has_visible_body_text": true,
+        "console_errors": [
+          "Failed to load resource: the server responded with a status of 503 ()"
+        ],
+        "page_errors": [],
+        "failed_requests": [],
+        "error_page_signals": {
+          "is_error_page": false,
+          "url_signals": [],
+          "text_signals": []
+        },
+        "error": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17 11:31:53.476830",
+    "environment_url": "https://www.mbusa.com/en/home",
+    "overall_status": "FAIL",
+    "setup_message": "",
+    "results": [
+      {
+        "browser": "chromium",
+        "result": "FAIL",
+        "status": null,
+        "final_url": "https://www.mbusa.com/en/home",
+        "title": "",
+        "load_time_ms": 11082.65,
+        "has_visible_body_text": false,
+        "console_errors": [
+          "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "Refused to execute script from 'https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/pre-home.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        ],
+        "page_errors": [],
+        "failed_requests": [
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/pre-home.js",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.mbusa.com/etc/assets/font/nafta-icons-v2.woff?t=1758562908552",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://videos.eu.ctfassets.net/enfsrdhqaxqf/7ibqqDHAQuBFEwXEhOLEV/d9dc9fd73ab89e3bb9179298a31a69e3/PLB_DWP2_HP_DR.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=1275107199.1776405679&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=1001691873.1776405679&navt=n&npa=0&us_privacy=1-N-&ep.ads_data_redaction=0&gtm=45He64f1h1v9225783510za200zd9225783510xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117266400~117384405~118131810&apve=1&apvf=f&apvc=1&tft=1776405679113&tfd=4429",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=1275107199.1776405679&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=1001691873.1776405679&navt=n&npa=0&us_privacy=1-N-&gtm=45fe64f1h1v9190479296z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117266400~117384406&apve=1&apvf=f&apvc=0&tids=DC-2799384&tid=DC-2799384&tft=1776405679644&tfd=4961",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=1275107199.1776405679&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=1001691873.1776405679&navt=n&npa=0&us_privacy=1-N-&gtm=45fe64f1h1v9190202742z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938468~117266401~117884344~118131809&apve=1&apvf=f&apvc=0&tids=DC-8596587&tid=DC-8596587&tft=1776405679858&tfd=5174",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=1275107199.1776405679&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=1001691873.1776405679&navt=n&npa=0&us_privacy=1-N-&gtm=45be64f1h1z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117266401&apve=1&apvf=f&apvc=0&tids=AW-934671124&tid=AW-934671124&tft=1776405680034&tfd=5351",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/rmkt/collect/934671124/?random=1776405679908&cv=11&fst=1776405679908&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64f1h1z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~117266401&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&rcb=11&frm=0&tiba=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&hn=www.googleadservices.com&npa=0&us_privacy=1-N-&pscdl=noapi&auid=1001691873.1776405679&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&gcp=5",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=1275107199.1776405679&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=1001691873.1776405679&navt=n&npa=0&us_privacy=1-N-&gtm=45be64f1h1z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938469~117266400~118131808&apve=1&apvf=f&apvc=0&tids=AW-676093342&tid=AW-676093342&tft=1776405680223&tfd=5539",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/rmkt/collect/676093342/?random=1776405680092&cv=11&fst=1776405680092&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64f1h1z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938469~117266400~118131808&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&rcb=18&frm=0&tiba=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&hn=www.googleadservices.com&npa=0&us_privacy=1-N-&pscdl=noapi&auid=1001691873.1776405679&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&gcp=5",
+            "failure": "net::ERR_ABORTED"
+          }
+        ],
+        "error_page_signals": {},
+        "error": "Timed out: Timeout 10000ms exceeded."
+      },
+      {
+        "browser": "firefox",
+        "result": "FAIL",
+        "status": null,
+        "final_url": "https://www.mbusa.com/en/home",
+        "title": "",
+        "load_time_ms": 12616.44,
+        "has_visible_body_text": false,
+        "console_errors": [
+          "[JavaScript Error: \"The resource from \u201chttps://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/pre-home.js\u201d was blocked due to MIME type (\u201ctext/html\u201d) mismatch (X-Content-Type-Options: nosniff).\" {file: \"https://www.mbusa.com/en/home\" line: 0}]",
+          "[JavaScript Error: \"downloadable font: download failed (font-family: \"nafta-icons-v2\" style:normal weight:400 stretch:100 src index:0): status=2147746065 source: https://www.mbusa.com/etc/assets/font/nafta-icons-v2.woff?t=1758562908552\"]",
+          "[JavaScript Error: \"Cookie \u201c_fbp\u201d has been rejected for invalid domain.\" {file: \"https://www.mbusa.com/en/home\" line: 0}]",
+          "[JavaScript Error: \"Cookie \u201c_fbp\u201d has been rejected for invalid domain.\" {file: \"https://www.mbusa.com/en/home\" line: 0}]",
+          "[JavaScript Error: \"Cookie \u201c_hp2_hld226658287616876\u201d has been rejected for invalid domain.\" {file: \"https://www.mbusa.com/en/home\" line: 0}]",
+          "[JavaScript Error: \"Cookie \u201c_hp2_hld6527225581235197\u201d has been rejected for invalid domain.\" {file: \"https://www.mbusa.com/en/home\" line: 0}]",
+          "[JavaScript Error: \"Cookie \u201c_hp2_hld1312739625245970\u201d has been rejected for invalid domain.\" {file: \"https://www.mbusa.com/en/home\" line: 0}]",
+          "[JavaScript Error: \"Cookie \u201c_hp2_hld2818873292091571\u201d has been rejected for invalid domain.\" {file: \"https://www.mbusa.com/en/home\" line: 0}]",
+          "[JavaScript Error: \"Cookie \u201c_hp2_hld1251729696319788\u201d has been rejected for invalid domain.\" {file: \"https://www.mbusa.com/en/home\" line: 0}]",
+          "[JavaScript Error: \"Cookie \u201c_hp2_hld5653095307693596\u201d has been rejected for invalid domain.\" {file: \"https://www.mbusa.com/en/home\" line: 0}]"
+        ],
+        "page_errors": [
+          "can't access property \"setAttribute\", document.querySelector(...).shadowRoot.querySelector(...) is null"
+        ],
+        "failed_requests": [
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/pre-home.js",
+            "failure": "NS_ERROR_CORRUPTED_CONTENT"
+          },
+          {
+            "url": "https://videos.eu.ctfassets.net/enfsrdhqaxqf/7ibqqDHAQuBFEwXEhOLEV/d9dc9fd73ab89e3bb9179298a31a69e3/PLB_DWP2_HP_DR.mp4",
+            "failure": "NS_ERROR_PARSED_DATA_CACHED"
+          },
+          {
+            "url": "https://daimleragamer.us-4.evergage.com/pr?.top=378&action=Homepage&.tt=330&.dt=1103&.btdns=172&.bv=16&_ak=daimleragamer&_ds=mbusa&.scv=240&channel=Web&_r=841703&.anonId=cfec69f97931d0bf&_anon=true",
+            "failure": "NS_BINDING_ABORTED"
+          }
+        ],
+        "error_page_signals": {},
+        "error": "Timed out: Timeout 10000ms exceeded."
+      },
+      {
+        "browser": "webkit",
+        "result": "FAIL",
+        "status": null,
+        "final_url": "https://www.mbusa.com/en/home",
+        "title": "",
+        "load_time_ms": 11538.89,
+        "has_visible_body_text": false,
+        "console_errors": [
+          "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "Refused to execute https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/pre-home.js as script because \"X-Content-Type-Options: nosniff\" was given and its Content-Type is not a script MIME type.",
+          "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "Refused to execute https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/post-home.js as script because \"X-Content-Type-Options: nosniff\" was given and its Content-Type is not a script MIME type."
+        ],
+        "page_errors": [],
+        "failed_requests": [
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/pre-home.js",
+            "failure": "Load request cancelled"
+          },
+          {
+            "url": "https://www.mbusa.com/etc/assets/font/nafta-icons-v2.woff?t=1758562908552",
+            "failure": "Load request cancelled"
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/post-home.js",
+            "failure": "Load request cancelled"
+          }
+        ],
+        "error_page_signals": {},
+        "error": "Timed out: Timeout 10000ms exceeded."
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17 11:32:22.175914",
+    "environment_url": "https://www.mbusa.com/en/home",
+    "overall_status": "FAIL",
+    "setup_message": "",
+    "results": [
+      {
+        "browser": "firefox",
+        "result": "FAIL",
+        "status": null,
+        "final_url": "https://www.mbusa.com/en/home",
+        "title": "",
+        "load_time_ms": 1730.79,
+        "has_visible_body_text": false,
+        "console_errors": [],
+        "page_errors": [],
+        "failed_requests": [
+          {
+            "url": "https://www.mbusa.com/en/home",
+            "failure": "NS_ERROR_UNKNOWN_HOST"
+          }
+        ],
+        "error_page_signals": {},
+        "error": "Page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://www.mbusa.com/en/home\", waiting until \"domcontentloaded\"\n"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17 11:32:54.085662",
+    "environment_url": "https://www.mbusa.com/en/home",
+    "overall_status": "FAIL",
+    "setup_message": "",
+    "results": [
+      {
+        "browser": "chromium",
+        "result": "FAIL",
+        "status": null,
+        "final_url": "https://www.mbusa.com/en/home",
+        "title": "",
+        "load_time_ms": 11371.78,
+        "has_visible_body_text": false,
+        "console_errors": [
+          "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "Refused to execute script from 'https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/pre-home.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        ],
+        "page_errors": [],
+        "failed_requests": [
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/hooks/us/home/pre-home.js",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.mbusa.com/etc/assets/font/nafta-icons-v2.woff?t=1758562908552",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://videos.eu.ctfassets.net/enfsrdhqaxqf/7ibqqDHAQuBFEwXEhOLEV/d9dc9fd73ab89e3bb9179298a31a69e3/PLB_DWP2_HP_DR.mp4",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=714379138.1776405768&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=939030038.1776405768&navt=n&npa=0&us_privacy=1-N-&ep.ads_data_redaction=0&gtm=45He64f1h1v9225783510za200zd9225783510xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~116363098~117266401~117384406~118131809&apve=1&apvf=f&apvc=1&tft=1776405768309&tfd=5714",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=714379138.1776405768&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=939030038.1776405768&navt=n&npa=0&us_privacy=1-N-&gtm=45fe64f1h1v9190202742z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~116363098~117266401~118131809&apve=1&apvf=f&apvc=0&tids=DC-8596587&tid=DC-8596587&tft=1776405769356&tfd=6761",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=714379138.1776405768&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=939030038.1776405768&navt=n&npa=0&us_privacy=1-N-&gtm=45fe64f1h1v9190479296z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116363098~117266401&apve=1&apvf=f&apvc=0&tids=DC-2799384&tid=DC-2799384&tft=1776405769455&tfd=6860",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=714379138.1776405768&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=939030038.1776405768&navt=n&npa=0&us_privacy=1-N-&gtm=45fe64f1h1v9190903388z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116363098~117266400~117384406&apve=1&apvf=f&apvc=0&tids=DC-3990485&tid=DC-3990485&tft=1776405769549&tfd=6955",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/rmkt/collect/864509363/?random=1776405769611&cv=11&fst=1776405769611&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be64f1h1z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~116363098~117266400~118128922~118131809&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&rcb=0&frm=0&tiba=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&hn=www.googleadservices.com&npa=0&us_privacy=1-N-&pscdl=noapi&auid=939030038.1776405768&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&gcp=5",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=714379138.1776405768&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=939030038.1776405768&navt=n&npa=0&us_privacy=1-N-&gtm=45be64f1h1z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~116363098~117266400~118128922~118131809&apve=1&apvf=f&apvc=0&tids=AW-864509363&tid=AW-864509363&tft=1776405769736&tfd=7141",
+            "failure": "net::ERR_ABORTED"
+          },
+          {
+            "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&en=page_view&dl=https%3A%2F%2Fwww.mbusa.com%2Fen%2Fhome&scrsrc=www.googletagmanager.com&rnd=714379138.1776405768&dt=Luxury%20Cars%20-%20Sedans%2C%20SUVs%2C%20Coupes%20%26%20Wagons%20%7C%20Mercedes-Benz%20USA&auid=939030038.1776405768&navt=n&npa=0&us_privacy=1-N-&gtm=45be64f1h1z89225783510za20gzb9225783510zd9225783510xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116363098~117266400~117384405&apve=1&apvf=f&apvc=0&tids=AW-676093342&tid=AW-676093342&tft=1776405770162&tfd=7567",
+            "failure": "net::ERR_ABORTED"
+          }
+        ],
+        "error_page_signals": {},
+        "error": "Timed out: Timeout 10000ms exceeded."
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17 11:33:21.185986",
+    "environment_url": "https://www.google.com",
+    "overall_status": "PASS",
+    "setup_message": "",
+    "results": [
+      {
+        "browser": "chromium",
+        "result": "PASS",
+        "status": 200,
+        "final_url": "https://www.google.com/",
+        "title": "Google",
+        "load_time_ms": 2583.44,
+        "has_visible_body_text": true,
+        "console_errors": [],
+        "page_errors": [],
+        "failed_requests": [],
+        "error_page_signals": {
+          "is_error_page": false,
+          "url_signals": [],
+          "text_signals": []
+        },
+        "error": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-04-17 11:33:57.967924",
+    "environment_url": "https://www.google.com",
+    "overall_status": "FAIL",
+    "setup_message": "",
+    "results": [
+      {
+        "browser": "firefox",
+        "result": "FAIL",
+        "status": 200,
+        "final_url": "https://www.google.com/",
+        "title": "Google",
+        "load_time_ms": 4773.79,
+        "has_visible_body_text": true,
+        "console_errors": [
+          "[JavaScript Error: \"Content-Security-Policy: (Report-Only policy) The page\u2019s settings would block an event handler (script-src-attr) from being executed because it violates the following directive: \u201cscript-src 'nonce-NxwR3P5xt2A5RcEXAbWgaA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:\u201d. Consider using a hash ('sha256-IWu8eKPFpwBlPtvm+lmwBh1mAdRu4b2jd4cGC9eFA54=') together with 'unsafe-hashes'.\nSource: _rtf(this)\" {file: \"https://www.google.com/\" line: 0}]"
+        ],
+        "page_errors": [],
+        "failed_requests": [
+          {
+            "url": "https://csp.withgoogle.com/csp/gws/other-hp",
+            "failure": "NS_BINDING_ABORTED"
+          }
+        ],
+        "error_page_signals": {
+          "is_error_page": false,
+          "url_signals": [],
+          "text_signals": []
+        },
+        "error": ""
+      }
+    ]
+  }
+]

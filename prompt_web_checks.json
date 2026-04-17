@@ -1,0 +1,623 @@
+[
+  {
+    "date": "2026-04-16 22:05:15.405829",
+    "prompt": "Verify the build landing page for GLB on mbusa.com",
+    "domain": "mbusa.com",
+    "overall_status": "PASS",
+    "summary": "## QA Result: Build Landing Page - GLB SUV (mbusa.com)\n\n**Verdict:** **PASS**\n\n**Evidence:**\n\n*   **URL:** The correct build page for the GLB SUV (`https://mbusa.com/en/vehicles/build/glb/suv`) was accessed and returned a successful HTTP 200 status.\n*   **Title:** The page title, \"Build Your Own GLB SUV | Mercedes-Benz USA,\" accurately reflects the content.\n*   **Keywords:** The page content contained the expected keywords \"build\" and \"glb\".\n*   **Page Structure:** The page loaded successfully without any detected error pages.\n*   **Page Assets:** Sample links and images on the page were confirmed to be reachable.\n*   **Content Preview:** The provided text preview indicates relevant navigation and information for building a vehicle, including links to \"Build Your Own,\" \"New Inventory,\" and \"Electric Shopping.\"\n\n**Risks / Gaps:**\n\n*   **Limited Scope:** This verification focused solely on the initial landing page. A full build process verification would require testing the selection of options, pricing updates, and finalization.\n*   **Dynamic Content:** The text preview is a snapshot. It's unknown how dynamic elements (e.g., pricing, availability, feature updates) behave.\n*   **Responsive Design:** No information is provided regarding testing on different devices or screen resolutions.\n\n**Next Action:**\n\nProceed with a deeper dive into the GLB SUV build process, including:\n\n1.  **Component Selection Testing:** Verify the functionality of selecting different trims, exterior/interior colors, packages, and individual options.\n2.  **Pricing Accuracy:** Ensure the build summary accurately reflects selected options and their associated costs.\n3.  **Image/Configuration Updates:** Confirm that the visual representation of the vehicle updates correctly as selections are made.\n4.  **Error Handling:** Test scenarios where invalid selections or configurations might occur to ensure proper error messages are displayed.\n5.  **Responsive Testing:** Conduct checks across various devices (desktop, tablet, mobile) and browsers to ensure a consistent user experience.",
+    "best_match": {
+      "prompt": "Verify the build landing page for GLB on mbusa.com",
+      "url": "https://mbusa.com/en/vehicles/build/glb/suv",
+      "final_url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+      "status": 200,
+      "response_time_ms": 2581.61,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Build Your Own GLB SUV | Mercedes-Benz USA",
+      "match_score": 6,
+      "matched_keywords": [
+        "build",
+        "glb"
+      ],
+      "overall_status": "PASS",
+      "checks": [
+        {
+          "name": "Page is reachable",
+          "status": "PASS",
+          "details": "Status 200"
+        },
+        {
+          "name": "Response is HTML",
+          "status": "PASS",
+          "details": "text/html;charset=utf-8"
+        },
+        {
+          "name": "Page title is present",
+          "status": "PASS",
+          "details": "Build Your Own GLB SUV | Mercedes-Benz USA"
+        },
+        {
+          "name": "Prompt keywords found",
+          "status": "PASS",
+          "details": "build, glb"
+        },
+        {
+          "name": "No error page detected",
+          "status": "PASS",
+          "details": "{'is_error_page': False, 'url_signals': [], 'text_signals': []}"
+        },
+        {
+          "name": "Sample links are reachable",
+          "status": "PASS",
+          "details": "Checked 10 link(s)"
+        },
+        {
+          "name": "Sample images are reachable",
+          "status": "PASS",
+          "details": "Checked 10 image(s)"
+        }
+      ],
+      "sample_results": {
+        "links": [
+          {
+            "url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/home",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/home",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/eq-electric-cars",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/vehicles/build",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/special-offers",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/inventory",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/owners",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/cpo",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/dealers",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          }
+        ],
+        "images": [
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/Homepage/MB-star_n_2D_3Cweb.svg",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/Homepage/MB-star_n_2D_3Cweb-dark.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/etc/designs/mb-nafta/images/blank.gif",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/etc/designs/mb-nafta/images/blank.gif",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/class-page/series/2026-GLB-SUV-HERO-DR.jpg",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-SUV-CGT-D.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-SUV-CGT-D.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-4M-SUV-CGT-DR.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-4M-SUV-CGT-DR.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-AMG-GLB35-SUV-CGT-DR.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          }
+        ]
+      },
+      "page_text_preview": "Skip Navigation Back Search QUICK LINKS Mercedes Electric Build Your Own Special Offers New Inventory Mercedes Owners Certified Pre-Owned Vehicles Electric Shopping Owners My Account Find a Dealer Search Find a Dealer Back Vehicles All Vehicles Compare Vehicles Special Offers Certified Pre-Owned Program Future Vehicles Features & Education Plug-In Hybrid Vehicles (PHEV) Driver Assistance Features Brands Mercedes-AMG Mercedes Electric Mercedes-Maybach Mercedes-Benz Vans Back Electric DISCOVER ELECTRIC Mercedes-Benz Electric Explore the Lineup Charging Your Vehicle Electric FAQs EV Charging Tools Shop Electric New Inventory Certified Pre-Owned All-Electric Special Offers Build Your Own Charge up in Luxury Mercedes-Benz High-Power Charging Network, a premium experience for effortless public charging and preferential access for Mercedes-Benz drivers across North America. Learn More About Charging Back Shopping INVENTORY New Vehicles Certified Pre-Owned Vehicles Pre-Owned Vehicles Special O"
+    },
+    "checked_pages": [
+      {
+        "url": "https://mbusa.com",
+        "final_url": "https://www.mbusa.com/en/home",
+        "title": "Luxury Cars - Sedans, SUVs, Coupes & Wagons | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 1,
+        "matched_keywords": [
+          "build"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://mbusa.com/en/vehicles/build",
+        "final_url": "https://www.mbusa.com/en/vehicles/build",
+        "title": "Build Your Own Car - Luxury Custom Cars | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 4,
+        "matched_keywords": [
+          "build",
+          "glb"
+        ],
+        "overall_status": "FAIL"
+      },
+      {
+        "url": "https://mbusa.com/en/vehicles/build/glb",
+        "final_url": "https://www.mbusa.com/content/mb-nafta/en_us.html",
+        "title": "| Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 1,
+        "matched_keywords": [
+          "build"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://mbusa.com/en/vehicles/build/glb/suv",
+        "final_url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+        "title": "Build Your Own GLB SUV | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 6,
+        "matched_keywords": [
+          "build",
+          "glb"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://mbusa.com/en/vehicles/class/glb",
+        "final_url": "https://www.mbusa.com/content/mb-nafta/en_us.html",
+        "title": "| Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 1,
+        "matched_keywords": [
+          "build"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://mbusa.com/en/vehicles/class/glb/suv",
+        "final_url": "https://www.mbusa.com/en/vehicles/class/glb/suv",
+        "title": "The Compact GLB SUV | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 4,
+        "matched_keywords": [
+          "build",
+          "glb"
+        ],
+        "overall_status": "PASS"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-16 22:12:11.792465",
+    "prompt": "Verify this https://www.mbusa.com/en/vehicles/build/glb/suv ",
+    "domain": "https://www.mbusa.com",
+    "overall_status": "PASS",
+    "summary": "## QA Result: Build Your Own GLB SUV Page Verification\n\n**Verdict:** PASS\n\n**Evidence:**\nThe verification of the target URL (https://www.mbusa.com/en/vehicles/build/glb/suv) confirms its successful access with an HTTP 200 status code. The page title \"Build Your Own GLB SUV | Mercedes-Benz USA\" accurately reflects the content, and the essential keywords \"vehicles,\" \"build,\" \"glb,\" and \"suv\" were found on the page. All automated checks, including reachability of sample links and images, and the absence of error pages, passed successfully.\n\n**Risks / Gaps:**\n*   **Limited Functional Testing:** This verification focused on basic page accessibility and content presence. It did not include functional testing of the \"Build Your Own\" configurator itself. This means the actual user experience of selecting options, pricing, and any form submissions were not assessed.\n*   **No Cross-Browser/Device Testing:** The current evidence does not indicate testing across different browsers or devices, which is crucial for a web application like this.\n*   **Usability and Accessibility:** While not explicitly checked in this report, the usability and accessibility of the configurator (e.g., for users with disabilities) are potential areas for further investigation.\n\n**Next Action:**\n*   **Initiate Functional Testing:** Proceed with detailed functional testing of the GLB SUV configurator, covering all user flows, option selections, pricing updates, and the finalization process.\n*   **Plan Cross-Browser and Cross-Device Testing:** Define a testing matrix and execute tests on a range of supported browsers and devices.\n*   **Consider Usability and Accessibility Testing:** If time and resources permit, conduct preliminary usability and accessibility checks to identify any significant barriers.",
+    "best_match": {
+      "prompt": "Verify this https://www.mbusa.com/en/vehicles/build/glb/suv ",
+      "url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+      "final_url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+      "status": 200,
+      "response_time_ms": 3886.85,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Build Your Own GLB SUV | Mercedes-Benz USA",
+      "match_score": 12,
+      "matched_keywords": [
+        "vehicles",
+        "build",
+        "glb",
+        "suv"
+      ],
+      "overall_status": "PASS",
+      "checks": [
+        {
+          "name": "Page is reachable",
+          "status": "PASS",
+          "details": "Status 200"
+        },
+        {
+          "name": "Response is HTML",
+          "status": "PASS",
+          "details": "text/html;charset=utf-8"
+        },
+        {
+          "name": "Page title is present",
+          "status": "PASS",
+          "details": "Build Your Own GLB SUV | Mercedes-Benz USA"
+        },
+        {
+          "name": "Prompt keywords found",
+          "status": "PASS",
+          "details": "vehicles, build, glb, suv"
+        },
+        {
+          "name": "No error page detected",
+          "status": "PASS",
+          "details": "{'is_error_page': False, 'url_signals': [], 'text_signals': []}"
+        },
+        {
+          "name": "Sample links are reachable",
+          "status": "PASS",
+          "details": "Checked 10 link(s)"
+        },
+        {
+          "name": "Sample images are reachable",
+          "status": "PASS",
+          "details": "Checked 10 image(s)"
+        }
+      ],
+      "sample_results": {
+        "links": [
+          {
+            "url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/home",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/home",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/eq-electric-cars",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/vehicles/build",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/special-offers",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/inventory",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/owners",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/cpo",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/en/dealers",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          }
+        ],
+        "images": [
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/Homepage/MB-star_n_2D_3Cweb.svg",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/Homepage/MB-star_n_2D_3Cweb-dark.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/etc/designs/mb-nafta/images/blank.gif",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/etc/designs/mb-nafta/images/blank.gif",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/class-page/series/2026-GLB-SUV-HERO-DR.jpg",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-SUV-CGT-D.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-SUV-CGT-D.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-4M-SUV-CGT-DR.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-4M-SUV-CGT-DR.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          },
+          {
+            "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-AMG-GLB35-SUV-CGT-DR.png",
+            "ok": true,
+            "status": 200,
+            "error": ""
+          }
+        ]
+      },
+      "page_text_preview": "Skip Navigation Back Search QUICK LINKS Mercedes Electric Build Your Own Special Offers New Inventory Mercedes Owners Certified Pre-Owned Vehicles Electric Shopping Owners My Account Find a Dealer Search Find a Dealer Back Vehicles All Vehicles Compare Vehicles Special Offers Certified Pre-Owned Program Future Vehicles Features & Education Plug-In Hybrid Vehicles (PHEV) Driver Assistance Features Brands Mercedes-AMG Mercedes Electric Mercedes-Maybach Mercedes-Benz Vans Back Electric DISCOVER ELECTRIC Mercedes-Benz Electric Explore the Lineup Charging Your Vehicle Electric FAQs EV Charging Tools Shop Electric New Inventory Certified Pre-Owned All-Electric Special Offers Build Your Own Charge up in Luxury Mercedes-Benz High-Power Charging Network, a premium experience for effortless public charging and preferential access for Mercedes-Benz drivers across North America. Learn More About Charging Back Shopping INVENTORY New Vehicles Certified Pre-Owned Vehicles Pre-Owned Vehicles Special O"
+    },
+    "checked_pages": [
+      {
+        "url": "https://www.mbusa.com",
+        "final_url": "https://www.mbusa.com/en/home",
+        "title": "Luxury Cars - Sedans, SUVs, Coupes & Wagons | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 3,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/vehicles",
+        "final_url": "https://www.mbusa.com/content/mb-nafta/en_us/all-vehicles.html",
+        "title": "All Vehicles | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 6,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "glb",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/vehicles/build",
+        "final_url": "https://www.mbusa.com/en/vehicles/build",
+        "title": "Build Your Own Car - Luxury Custom Cars | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 8,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "glb",
+          "suv"
+        ],
+        "overall_status": "FAIL"
+      },
+      {
+        "url": "https://www.mbusa.com/en/vehicles/build/glb",
+        "final_url": "https://www.mbusa.com/content/mb-nafta/en_us.html",
+        "title": "| Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 3,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+        "final_url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+        "title": "Build Your Own GLB SUV | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 12,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "glb",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/vehicles/class/glb",
+        "final_url": "https://www.mbusa.com/content/mb-nafta/en_us.html",
+        "title": "| Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 3,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/vehicles/class/glb/suv",
+        "final_url": "https://www.mbusa.com/en/vehicles/class/glb/suv",
+        "title": "The Compact GLB SUV | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 10,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "glb",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/all-vehicles",
+        "final_url": "https://www.mbusa.com/en/all-vehicles",
+        "title": "All Vehicles | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 6,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "glb",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/compare-vehicles",
+        "final_url": "https://www.mbusa.com/en/compare-vehicles",
+        "title": "Compare Vehicles | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 5,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/future-vehicles",
+        "final_url": "https://www.mbusa.com/en/future-vehicles",
+        "title": "Future Vehicles | Mercedes-Benz USA | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 6,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "glb",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/luxury-plug-in-hybrid-vehicles",
+        "final_url": "https://www.mbusa.com/en/luxury-plug-in-hybrid-vehicles",
+        "title": "Luxury Plug-In Hybrid Vehicles | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 4,
+        "matched_keywords": [
+          "vehicles",
+          "build"
+        ],
+        "overall_status": "PASS"
+      },
+      {
+        "url": "https://www.mbusa.com/en/inventory?class=EQB:SUV,EQE:SDN,EQS:SDN,EQS:SUV",
+        "final_url": "https://www.mbusa.com/en/inventory?class=EQB,EQE,EQS,EQS",
+        "title": "Vehicle Inventory Locator | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 3,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "suv"
+        ],
+        "overall_status": "FAIL"
+      },
+      {
+        "url": "https://www.mbusa.com/en/special-offers?class=EQB:SUV,EQS:SDN,EQE:SDN,EQS:SUV",
+        "final_url": "https://www.mbusa.com/en/special-offers?class=EQB:SUV,EQS:SDN,EQE:SDN,EQS:SUV",
+        "title": "Special Offers | Mercedes-Benz USA",
+        "status": 200,
+        "match_score": 5,
+        "matched_keywords": [
+          "vehicles",
+          "build",
+          "suv"
+        ],
+        "overall_status": "PASS"
+      }
+    ]
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "date": "2026-04-16 19:43:34.131359",
+    "environment_url": "https://www.google.com",
+    "overall_status": "PASS",
+    "title": "Google",
+    "checks": [
+      {
+        "name": "Application is reachable",
+        "status": "PASS",
+        "details": "Status 200 from https://www.google.com"
+      },
+      {
+        "name": "Response time is acceptable",
+        "status": "PASS",
+        "details": "444.55 ms"
+      },
+      {
+        "name": "Response is HTML",
+        "status": "PASS",
+        "details": "text/html; charset=ISO-8859-1"
+      },
+      {
+        "name": "Page title is present",
+        "status": "PASS",
+        "details": "Google"
+      },
+      {
+        "name": "No obvious server error text",
+        "status": "PASS",
+        "details": "No server error text found"
+      },
+      {
+        "name": "Redirect stays on same domain",
+        "status": "PASS",
+        "details": "https://www.google.com"
+      },
+      {
+        "name": "HTTPS is used",
+        "status": "PASS",
+        "details": "https://www.google.com"
+      },
+      {
+        "name": "Sample links are reachable",
+        "status": "PASS",
+        "details": "Checked 10 link(s)"
+      },
+      {
+        "name": "Sample images are reachable",
+        "status": "PASS",
+        "details": "Checked 1 image(s)"
+      },
+      {
+        "name": "Sample scripts are reachable",
+        "status": "PASS",
+        "details": "Checked 0 script(s)"
+      },
+      {
+        "name": "Sample stylesheets are reachable",
+        "status": "PASS",
+        "details": "Checked 0 stylesheet(s)"
+      }
+    ],
+    "warnings": [],
+    "sample_results": {
+      "links": [
+        {
+          "url": "https://mail.google.com/mail/%26ogbl",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.google.com/imghp?hl=en&ogbl",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.google.co.in/intl/en/about/products",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/&ec=GAZAmgQ",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.google.com/advanced_search?hl=en-IN&authuser=0",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.google.com/setprefs?sig=0_sbnQ8RXsoaQiNsyP-HS-GLhDcwM%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwiUtor8xvKTAxXilFYBHc89HQAQ2ZgBCAU",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.google.com/setprefs?sig=0_sbnQ8RXsoaQiNsyP-HS-GLhDcwM%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiUtor8xvKTAxXilFYBHc89HQAQ2ZgBCAY",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.google.com/setprefs?sig=0_sbnQ8RXsoaQiNsyP-HS-GLhDcwM%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiUtor8xvKTAxXilFYBHc89HQAQ2ZgBCAc",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.google.com/setprefs?sig=0_sbnQ8RXsoaQiNsyP-HS-GLhDcwM%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiUtor8xvKTAxXilFYBHc89HQAQ2ZgBCAg",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.google.com/setprefs?sig=0_sbnQ8RXsoaQiNsyP-HS-GLhDcwM%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiUtor8xvKTAxXilFYBHc89HQAQ2ZgBCAk",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        }
+      ],
+      "scripts": [],
+      "stylesheets": []
+    }
+  },
+  {
+    "date": "2026-04-16 22:07:24.250432",
+    "environment_url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+    "overall_status": "PASS",
+    "title": "Build Your Own GLB SUV | Mercedes-Benz USA",
+    "checks": [
+      {
+        "name": "Application is reachable",
+        "status": "PASS",
+        "details": "Status 200 from https://www.mbusa.com/en/vehicles/build/glb/suv"
+      },
+      {
+        "name": "Response time is acceptable",
+        "status": "PASS",
+        "details": "1307.7 ms"
+      },
+      {
+        "name": "Response is HTML",
+        "status": "PASS",
+        "details": "text/html;charset=utf-8"
+      },
+      {
+        "name": "Page title is present",
+        "status": "PASS",
+        "details": "Build Your Own GLB SUV | Mercedes-Benz USA"
+      },
+      {
+        "name": "No obvious server error text",
+        "status": "PASS",
+        "details": "No server error text found"
+      },
+      {
+        "name": "Redirect stays on same domain",
+        "status": "PASS",
+        "details": "https://www.mbusa.com/en/vehicles/build/glb/suv"
+      },
+      {
+        "name": "HTTPS is used",
+        "status": "PASS",
+        "details": "https://www.mbusa.com/en/vehicles/build/glb/suv"
+      },
+      {
+        "name": "Sample links are reachable",
+        "status": "PASS",
+        "details": "Checked 10 link(s)"
+      },
+      {
+        "name": "Sample images are reachable",
+        "status": "PASS",
+        "details": "Checked 10 image(s)"
+      },
+      {
+        "name": "Sample scripts are reachable",
+        "status": "PASS",
+        "details": "Checked 1 script(s)"
+      },
+      {
+        "name": "Sample stylesheets are reachable",
+        "status": "PASS",
+        "details": "Checked 4 stylesheet(s)"
+      }
+    ],
+    "warnings": [
+      "No forms found on the landing page."
+    ],
+    "sample_results": {
+      "links": [
+        {
+          "url": "https://www.mbusa.com/en/vehicles/build/glb/suv",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/home",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/home",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/eq-electric-cars",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/vehicles/build",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/special-offers",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/inventory",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/owners",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/cpo",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/en/dealers",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.mbusa.com/content/dam/mb-nafta/us/Homepage/MB-star_n_2D_3Cweb.svg",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/content/dam/mb-nafta/us/Homepage/MB-star_n_2D_3Cweb-dark.png",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/etc/designs/mb-nafta/images/blank.gif",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/etc/designs/mb-nafta/images/blank.gif",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/class-page/series/2026-GLB-SUV-HERO-DR.jpg",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-SUV-CGT-D.png",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-SUV-CGT-D.png",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-4M-SUV-CGT-DR.png",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-GLB250-4M-SUV-CGT-DR.png",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/content/dam/mb-nafta/us/myco/my26/glb-class/cgt/2026-AMG-GLB35-SUV-CGT-DR.png",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        }
+      ],
+      "scripts": [
+        {
+          "url": "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        }
+      ],
+      "stylesheets": [
+        {
+          "url": "https://nafta-service.mbusa.com/assets/now-ui-core/packages/foundation/0.78.11/css/globals.css",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/etc/designs/mb-nafta/css/main.css",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/etc/designs/mb-nafta/css/byo-class.css",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        },
+        {
+          "url": "https://www.mbusa.com/etc/designs/mb-nafta/plugins/right-trail-navigation-bar/css/right-trail-navigation-bar.css",
+          "ok": true,
+          "status": 200,
+          "error": ""
+        }
+      ]
+    }
+  }
+]
